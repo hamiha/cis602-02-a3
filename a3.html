@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Assignment 3</title>
+</head>
+
+<script src="https://d3js.org/d3-array.v1.min.js"></script>
+<script src="https://d3js.org/d3-color.v1.min.js"></script>
+<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v1.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="./underscore-min.js"></script>
+<script src="./a3.js"></script>
+
+<style>
+#greenColor {color: green;} h3 { font-style: italic;font-weight: normal; }h4 {color: red;}.stroke {fill: none;stroke: #000;stroke-width: 2px;}.fill {fill: #fff;} 
+</style>
+<body>
+
+<h1 id="greenColor">Hai Minh Hai</h1>
+<h2 id="greenColor">#01636736</h2>
+<h3>Data Visualization (DSC 530/602-02)</h3>
+<h4>Assignment 3</h4>
+<p>This assignment is all my own work. I did not copy or rewrite the code from any other source except the code given in the assignment.</p>
+<p>I used <a href="http://underscorejs.org/">underscore</a> to process data.</p>
+
+<h2 class="head">1. Top 20 Women's Soccer Players</h2>
+<div id="womensmap"></div>
+<h2 class="head">2. Top 100 Men's Soccer Players</h2>
+<div id="mensmap"></div>
+<h2 class="head">3. Teammate Graph</h2>
+<div id="teammategraph"></div>
+<h2 class="head">4. Extra</h2>
+<div>
+  <p>
+      Count by:
+      <select class="orderby">
+        <option value="League">League</option>
+        <option value="Nationality">Nationality</option>
+      </select>
+    </p>
+    <div id="extramap"></div>
+</div>
+</body>
+</html>
